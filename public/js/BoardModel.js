@@ -127,7 +127,7 @@ _p._isWin = function(col,row){
 			//水平方向
 			count1 ++;
 		}
-		if((row - 1 - i > 0 && color == this.getData(col,row - 1 - i)) || (row + 1 + i < this.rows && color == this.getData(col,row + 1 + i))){
+		if((row - 1 - i > 0 && color == this.getData(col,row - 1 - i)) || (row + 1 + i < this._rows && color == this.getData(col,row + 1 + i))){
 			//垂直方向
 			count2 ++;
 		}
